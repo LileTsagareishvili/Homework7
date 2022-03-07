@@ -50,7 +50,7 @@ h4 {
     margin-top: 30px;
 
 }
-button {
+.button {
 	background-color: #3D37F1; /*blue*/
 	color: #FFFFFF; /*white*/
 	text-align: center;
@@ -58,14 +58,14 @@ button {
 	font-family: 'Poppins', sans-serif;
 	width: 183.67px;
 	height: 56.77px;
-	border-radius: 38%;
+	border-radius: 45%;
 	border-style: none;
 	display: flex;
     align-items: center;
 	justify-content: space-around;
 }
 button:hover {
-  background-color: red;
+  background-color: white;
 }
 
 .box2 {
@@ -111,4 +111,72 @@ button:hover {
     line-height: 25px;
 }
 
+.container2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
 
+.n1 {
+    background-color: #FBBA77; /*Orange*/
+	width: 350px;
+    margin: 8px;
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 120px;
+}
+.n1:nth-child(2) {
+	background-color: #41EAE3; /*blue*/
+}
+.n1:nth-child(3) {
+	background-color: #69529F; /*purple*/
+}
+.n1:nth-child(4) {
+	background-color: #4386D2; /*lightblue*/
+}
+.n1:nth-child(5) {
+	background-color: #A5A2F6; /*lightpurple*/
+}
+.n1:nth-child(6) {
+	background-color: #FF8088; /*pink*/
+}
+
+.img1 {
+	margin-bottom: 60px;
+}
+
+.text1 {
+	width: 150px;
+	color: #FFFFFF; /*White*/
+	font-size: 22px;
+	font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+.text2 {
+	color: #FFFFFF; /*White*/
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+    width: 328px;
+
+}
+.text3 {
+	width: 131px;
+    height: 45px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px solid white;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+}
